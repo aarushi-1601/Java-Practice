@@ -36,7 +36,6 @@ public class LinkedList {
     { 
         // Creating a new node with given data 
         Node new_node = new Node(data); 
-          
     
         // If the Linked List is empty, 
         // then make the new node as head 
@@ -77,7 +76,7 @@ public class LinkedList {
     
     public static void main(String[] args) 
     { 
-        
+
         LinkedList list = new LinkedList(); 
     
         // Insert the values 
