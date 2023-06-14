@@ -10,7 +10,6 @@ public class q3pla {
       
       int n = arr.length;
 
-      //logic implementation
       for(int i = 0; i < n; i++){
          if(arr[i] % 2 == 0){
 
@@ -21,16 +20,9 @@ public class q3pla {
             sumOdd = sumOdd + arr[i];
          }
       }
-      
+
       // printing sum of even and odd numbers
       System.out.println("Sum of Even Numbers:"+sumEven);
       System.out.println("Sum of Odd Numbers:"+sumOdd);
-
-      //checking if sum of even is smaller or sum of odd is smaller
-      if(sumEven > sumOdd){
-         System.out.println("Sum of odd numbers is smaller");
-      } else {
-         System.out.println("Sum of Even number is smaller");
-      }
    }
 }
