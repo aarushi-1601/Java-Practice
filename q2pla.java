@@ -18,7 +18,6 @@ public static void main (String args[]){
         char[] charArray1 = str1.toCharArray();
         char[] charArray2 = str1.toCharArray();
         
-        
         Arrays.sort(charArray1);
         Arrays.sort(charArray2);
 
