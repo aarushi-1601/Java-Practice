@@ -22,16 +22,18 @@ public class q4pla {
             if (temp[i] == 0)
                 ans = i + 1;
         }
+        System.out.printf("The missing number in the array is: ");
+
         System.out.println(ans);
     }
-    // Driver Code
+
     public static void main(String[] args)
     {
-        int arr[] = { 1, 3, 7, 5, 6, 2 };
+        int arr[] = { 4,2,1,3,6 };
         int n = arr.length;
  
         // Function call
         findMissing(arr, n);
     }
 }
-}
+
