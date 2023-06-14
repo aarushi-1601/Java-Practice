@@ -23,13 +23,12 @@ public class q4pla {
                 ans = i + 1;
         }
         System.out.printf("The missing number in the array is: ");
-
         System.out.println(ans);
     }
 
     public static void main(String[] args)
     {
-        int arr[] = { 4,2,1,3,6 };
+        int arr[] = { 4, 2, 1, 3, 6 };
         int n = arr.length;
  
         // Function call

@@ -16,7 +16,7 @@ public class q1pla {
             {
                 if(nums[i] + nums[j] == target)
                 {
-                    System.out.printf("pair found (%d, %d)", nums[i], nums[j]);
+                    System.out.printf("Pair Found (%d, %d)", nums[i], nums[j]);
                     return;
                 }
             }
