@@ -20,7 +20,7 @@ public static void main (String args[]){
         
         
         Arrays.sort(charArray1);
-      Arrays.sort(charArray2);
+        Arrays.sort(charArray2);
 
       // if sorted char arrays are same
       // then the string is anagram
@@ -37,7 +37,7 @@ public static void main (String args[]){
       System.out.println(str1 + " and " + str2 + " are not anagram.");
     }
 
-    input.close();
+    //input.close();
   }
 }
 
