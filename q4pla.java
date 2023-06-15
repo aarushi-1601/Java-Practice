@@ -1,8 +1,8 @@
 //find the missing number in given array
 //[4,2,1,3,6], missing is 5, print that
 
-import java.io.*;
-import java.util.*;
+//import java.io.*;
+//import java.util.*;
 
 public class q4pla {
     public static void findMissing(int arr[], int N)
