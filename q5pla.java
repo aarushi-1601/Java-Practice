@@ -3,10 +3,13 @@
 public class q5pla{
    public static void main (String args[]) {
 
+    int arr[]= new int[100];
+    
+        int targNum = 6;
     int lower=1, upper=100;
     for (int i=lower; i<=upper; i++)
        if (isPrime (i))
-       System.out.println(i);
+       //System.out.println(i);
 
    }
    static boolean isPrime (int n)
