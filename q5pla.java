@@ -52,8 +52,7 @@ static void findPrimeNos(int L, int R,Map<Integer,Integer> M,int K)
  
 static void getPrimePairs(int L,int R, int K)
 {
-  Map<Integer,
-      Integer> M = new HashMap<Integer,Integer>(); 
+  Map<Integer,Integer> M = new HashMap<Integer,Integer>(); 
  
   findPrimeNos(L, R, M, K);
 }
