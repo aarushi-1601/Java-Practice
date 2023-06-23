@@ -1,8 +1,6 @@
 //array is there, find the sum of odd and even numbers
 //[2,4,6,7,-1,3,6]
 
-import java.io.*;
-
 public class q3pla {
     public static void main(String args[]){
         int sumEven=0, sumOdd=0;
