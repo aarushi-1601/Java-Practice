@@ -12,6 +12,6 @@ public class q5pla{
 
         l_list.addFirst("Black");
         l_list.addLast("Purple");
-        System.out.println("Final Linked lis is:"+l_list);
+        System.out.println("Final Linked list is:"+l_list);
     }
 }
